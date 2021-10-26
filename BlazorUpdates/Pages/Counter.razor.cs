@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Components;
-
 namespace BlazorUpdates.Pages;
 
 public partial class Counter
@@ -10,7 +8,7 @@ public partial class Counter
 
     private void IncrementCount()
     {
-        throw new Exception("This was a mistake");
+        //throw new Exception("This was a mistake");
         CurrentCount += 1;
     }
 }

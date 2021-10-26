@@ -1,6 +1,3 @@
-using BlazorUpdates.Data;
-using Microsoft.AspNetCore.Components;
-
 namespace BlazorUpdates.Pages;
 
 public partial class FetchData

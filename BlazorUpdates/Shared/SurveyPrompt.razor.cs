@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Components;
-
 namespace BlazorUpdates.Shared;
 
 public partial class SurveyPrompt
