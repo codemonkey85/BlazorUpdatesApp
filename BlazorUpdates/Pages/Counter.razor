@@ -1,0 +1,13 @@
+﻿@page "/counter"
+
+<PageTitle>Counter: @CurrentCount</PageTitle>
+
+<HeadContent>
+    <meta name="description" content="This is Tim Corey's Counter page" />
+</HeadContent>
+
+<h1>Updated Counter</h1>
+
+<p role="status">Current count: @CurrentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>

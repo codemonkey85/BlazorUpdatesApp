@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, YouTube!</h1>
+
+Welcome to your new app.
+
+<ErrorBoundary>
+    <ChildContent>
+        <Counter CurrentCount=34 />
+    </ChildContent>
+    <ErrorContent>
+        <div class="text-danger">There was an error loading the counter.</div>
+    </ErrorContent>
+</ErrorBoundary>
+
+<ErrorBoundary>
+    <h2>This is Counter #2</h2>
+    <Counter CurrentCount=6 />
+</ErrorBoundary>
